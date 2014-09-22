@@ -1,0 +1,2 @@
+serviceClass: com.ntobjectives.hackazon.helpdesk.client.HelpdeskService
+path: 5861BBAC393F609060A1E4008EC18E2B.gwt.rpc

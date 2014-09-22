@@ -1,0 +1,56 @@
+{
+    "name": "phpixie/project",
+    "type": "project",
+    "description": "PHPixie skeleton project",
+    "license": "BSD",
+    "autoload": {
+        "psr-0": {
+            "": [
+                "classes/",
+                "modules/vulninjection/classes/",
+                "modules/gwtphp/classes/",
+                "modules/amfphp/classes/",
+                "classes/PDOV"
+            ]
+        },
+        "classmap": [
+            "classes/",
+            "modules/vulninjection/classes/",
+            "modules/gwtphp/classes/",
+            "modules/amfphp/classes/",
+            "classes/PDOV",
+            "modules/gwtphp/gwtphp-maps/com/ntobjectives/hackazon/helpdesk/client/entity",
+            "modules/gwtphp/gwtphp-maps/com/ntobjectives/hackazon/helpdesk/client",
+            "vendor/gwtphp/gwtphp/src/maps/java/util"
+        ],
+        "files": ["vendor/hackazon/amfphp/Amfphp/ClassLoader.php"]
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "hackazon/amfphp",
+                "version": "dev-master",
+                "dist": {
+                    "url": "https://github.com/hackazon/amfphp-2.0/archive/core.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "require": {
+        "phpixie/core": "2.*@dev",
+        "phpixie/db": "2.*@dev",
+        "phpixie/orm": "2.*@dev",
+        "phpixie/auth": "2.*@dev",
+        "phpixie/email": "2.*@dev",
+        "phpixie/paginate":"2.*@dev",
+        "gwtphp/gwtphp": "dev-master",
+        "hackazon/amfphp": "dev-master"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.*-dev"
+        }
+    }
+}

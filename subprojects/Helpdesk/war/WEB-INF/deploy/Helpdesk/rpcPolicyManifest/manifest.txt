@@ -1,0 +1,3 @@
+# Module Helpdesk
+# RPC service class, partial path of RPC policy file
+com.ntobjectives.hackazon.helpdesk.client.HelpdeskService, 5861BBAC393F609060A1E4008EC18E2B.gwt.rpc
